@@ -43,42 +43,42 @@ combo_##NAME { \
         };
        
        combo_esc {
-            timeout-ms = <50>,
+            timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
        };
        combo_caps {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <10 19>;
             bindings = <&caps_word>;
        };
        combo_singlequote {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <6 7>;
             bindings = <&kp SINGLE_QUOTE>;
        };
        combo_doublequote {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <7 8>;
             bindings = <&kp DOUBLE_QUOTES>;
        };
        combo_minus {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <17 18>;
             bindings = <&kp MINUS>;
        };
        combo_plus {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <16 17>;
             bindings = <&kp PLUS>;
        };
        combo_equal {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&kp EQUAL>;
        };
        combo_underscore {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <16 17 18>;
             bindings = <&kp UNDERSCORE>;
        };
