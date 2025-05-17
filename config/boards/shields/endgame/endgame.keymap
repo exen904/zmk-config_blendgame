@@ -158,12 +158,12 @@ combo_##NAME { \
                 &kp PRINTSCREEN                    &mo 3          &trans        &trans      &trans                                   &trans
             >;
         };
-        DE_layer {
-            label= "DE";
+        BT_layer {
+            label= "BT";
             bindings = <
                 &sys_reset   &bt BT_CLR  &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans
                 &bootloader  &bt BT_NXT  &none         &bt BT_SEL 2  &bt BT_SEL 3  &none   &none   &none   &none   &none
-                &trans       &bt BT_PRV  &bl BL_TOG    &bl BL_INC    &bl BL_DEC    &none   &none   &none   &none   &none
+                &trans       &bt BT_PRV  &none         &none         &none    &none   &none   &none   &none   &none
                                         &trans       &trans       &trans       &trans   &trans  &trans
             >;
         };
