@@ -154,7 +154,7 @@ combo_##NAME { \
             bindings = <
                 &kp EXCL    &kp AT     &kp HASH    &kp DOLLAR     &kp PERCENT  &kp CARET    &kp AMPS     &kp LS(N2)      &kp EQUAL   &kp ASTRK         
                 &trans      &trans     &trans      &trans         &trans       &trans       &kp C_MUTE   &trans          &trans      &trans
-                &trans      &trans     &LC(C)      &LC(V)         &trans       &kp C_VOL_DN &kp C_VOL_UP &kp C_PREVIOUS  &kp C_NEXT  &kp BACKSLASH
+                &trans      &trans     &kp LC(C)   &kp LC(V)      &trans       &kp C_VOL_DN &kp C_VOL_UP &kp C_PREVIOUS  &kp C_NEXT  &kp BACKSLASH
                 &kp PRINTSCREEN                    &mo 3          &trans        &trans      &trans                                   &trans
             >;
         };
