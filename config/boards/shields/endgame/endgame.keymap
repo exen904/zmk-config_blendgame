@@ -142,7 +142,7 @@ combo_##NAME { \
             bindings = <
                 &kp ESC      &kp PIPE        &kp UP           &trans             &kp LBRC     &kp RBRC         &kp N7       &kp N8       &kp N9         &kp PLUS
                 &kp LSHFT    &kp LEFT        &kp DOWN         &kp RIGHT          &kp LBKT     &kp RBKT         &kp N4       &kp N5       &kp N6         &kp MINUS
-                &kp DEL      &kp PAGE_UP     &kp kp LC(C)     &kp LC(V)          &kp LPAR     &kp RPAR         &kp N1       &kp N2       &kp N3         &kp DOT 
+                &kp DEL      &kp PAGE_UP     &kp LC(C)        &kp LC(V)          &kp LPAR     &kp RPAR         &kp N1       &kp N2       &kp N3         &kp DOT 
                                         &trans        &trans        &trans       &kp N0       &kp BSPC                                                  &kp UNDERSCORE
             >;
         };
