@@ -54,12 +54,12 @@ combo_##NAME { \
        };
        combo_singlequote {
             timeout-ms = <50>;
-            key-positions = <6 7>;
+            key-positions = <7 8>;
             bindings = <&kp SINGLE_QUOTE>;
        };
        combo_doublequote {
             timeout-ms = <50>;
-            key-positions = <7 8>;
+            key-positions = <8 9>;
             bindings = <&kp DOUBLE_QUOTES>;
        };
        combo_minus {
@@ -93,9 +93,9 @@ combo_##NAME { \
             //flavor = "hold-preferred";
             // flavor = "tap-preferred";
             flavor = "balanced";
-            tapping-term-ms = <175>;
+            tapping-term-ms = <160>;
             //quick-tap-ms = <100>;
-            //hold-while-undecided;
+            hold-while-undecided;
             // global-quick-tap;
             bindings = <&kp>, <&kp>;
             // opposite side hand keys
@@ -108,7 +108,7 @@ combo_##NAME { \
             //flavor = "hold-preferred";
             // flavor = "tap-preferred";
             flavor = "balanced";
-            tapping-term-ms = <175>;
+            tapping-term-ms = <160>;
             //hold-while-undecided;
             //quick-tap-ms = <100>;
             // global-quick-tap;
