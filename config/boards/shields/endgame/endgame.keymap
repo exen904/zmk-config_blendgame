@@ -95,7 +95,7 @@ combo_##NAME { \
             flavor = "balanced";
             tapping-term-ms = <160>;
             //quick-tap-ms = <100>;
-            hold-while-undecided;
+            //hold-while-undecided;
             // global-quick-tap;
             bindings = <&kp>, <&kp>;
             // opposite side hand keys
