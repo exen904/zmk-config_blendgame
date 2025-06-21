@@ -129,10 +129,10 @@ combo_##NAME { \
         BASE_layer {
             label= "BASE";
             bindings = <
-                &kp Q       &kp W        &kp E          &kp R           &kp T       &kp Y   &kp U       &kp I       &kp O       &kp P
-                &hl LGUI A  &hl LALT S   &hl LCTRL D    &hl LSHFT F     &kp G       &kp H   &hr RSHFT J &hr RCTRL K &hr RALT L  &hr RGUI SEMI
-                &kp Z       &kp X        &kp C          &kp V           &kp B       &kp N   &kp M       &kp COMMA   &kp DOT     &kp SLASH
-                &kp DEL                                 &lt 1 TAB       &kp SPACE   &kp ENTER    &lt 2 BSPC                     &lt 3 BACKSLASH
+                &kp DE_Q       &kp DE_W        &kp DE_E          &kp DE_R           &kp DE_T       &kp DE_Y   &kp DE_U       &kp DE_I       &kp DE_O       &kp DE_P
+                &hl LGUI DE_A  &hl LALT DE_S   &hl LCTRL DE_D    &hl LSHFT DE_F     &kp DE_G       &kp DE_H   &hr RSHFT DE_J &hr RCTRL DE_K &hr RALT DE_L  &hr RGUI DE_SEMI
+                &kp DE_Z       &kp DE_X        &kp DE_C          &kp DE_V           &kp DE_B       &kp DE_N   &kp DE_M       &kp DE_COMMA   &kp DE_DOT     &kp DE_FSLH
+                &kp DEL                                 &lt 1 TAB       &kp SPACE   &kp ENTER    &lt 2 BSPC                     &lt 3 DE_BSLS
                         >;
         };
 
@@ -140,10 +140,10 @@ combo_##NAME { \
         NUM_layer {
             label= "NUM";
             bindings = <
-                &kp ESC      &kp PIPE        &kp UP           &trans             &kp LBRC     &kp RBRC         &kp N7       &kp N8       &kp N9         &kp PLUS
-                &kp LSHFT    &kp LEFT        &kp DOWN         &kp RIGHT          &kp LBKT     &kp RBKT         &kp N4       &kp N5       &kp N6         &kp MINUS
-                &kp DEL      &kp PAGE_UP     &kp LC(C)        &kp LC(V)          &kp LPAR     &kp RPAR         &kp N1       &kp N2       &kp N3         &kp DOT 
-                                        &trans        &trans        &trans       &kp N0       &kp BSPC                                                  &kp UNDERSCORE
+                &kp ESC      &kp PIPE        &kp UP           &trans             &kp DE_LPAR  &kp DE_RPAR      &kp N7       &kp N8       &kp N9         &kp DE_PLUS
+                &kp LSHFT    &kp LEFT        &kp DOWN         &kp RIGHT          &kp DE_LBRC  &kp DE_LBRC      &kp N4       &kp N5       &kp N6         &kp DE_MINUS
+                &kp DEL      &kp PAGE_UP     &kp LC(C)        &kp LC(V)          &kp DE_LCBR  &kp DE_RCBR      &kp N1       &kp N2       &kp N3         &kp DOT 
+                                        &trans        &trans        &trans       &kp N0       &kp BSPC                                                  &kp DE_UNDS
             >;
         };
 
@@ -152,10 +152,10 @@ combo_##NAME { \
         SYM_layer {
             label= "SYM";
             bindings = <
-                &kp EXCL    &kp AT     &kp HASH    &kp DOLLAR     &kp PERCENT  &kp CARET    &kp AMPS     &kp LS(N2)      &kp EQUAL   &kp ASTRK         
-                &trans      &trans     &trans      &trans         &trans       &trans       &kp C_MUTE   &trans          &trans      &trans
-                &trans      &trans     &kp LC(C)   &kp LC(V)      &trans       &kp C_VOL_DN &kp C_VOL_UP &kp C_PREVIOUS  &kp C_NEXT  &kp BACKSLASH
-                &kp PRINTSCREEN                    &mo 3          &trans        &trans      &trans                                   &trans
+                &kp DE_EXCL    &kp DE_AT     &kp DE_HASH    &kp DE_DOLLAR     &kp DE_PERCENT  &kp DE_GRAVE    &kp DE_AMPS     &kp LS(N2)      &kp DE_EQUAL   &kp DE_ASTRK         
+                &kp DE_ODIA    &kp DE_SS     &trans         &trans            &trans          &trans          &kp C_MUTE      &trans          &kp DE_ADIA         &kp DE_UDIA
+                &trans         &trans        &kp LC(C)      &kp LC(V)         &trans          &kp C_VOL_DN    &kp C_VOL_UP    &kp C_PREVIOUS  &kp C_NEXT     &kp BACKSLASH
+                &kp PRINTSCREEN                             &mo 3          &trans             &trans      &trans                                                           &trans
             >;
         };
         BT_layer {
