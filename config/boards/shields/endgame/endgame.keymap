@@ -152,7 +152,7 @@ combo_##NAME { \
         SYM_layer {
             label= "SYM";
             bindings = <
-                &kp DE_EXCL    &kp DE_AT     &kp DE_HASH    &kp DE_DLLAR      &kp DE_PRCNT    &kp DE_GRAVE    &kp DE_AMPS     &kp LS(N2)      &kp DE_EQUAL   &kp DE_ASTRK         
+                &kp DE_EXCL    &kp DE_AT     &kp DE_HASH    &kp DE_DLLR       &kp DE_PRCNT    &kp DE_GRAVE    &kp DE_AMPS     &kp LS(N2)      &kp DE_EQUAL   &kp DE_ASTRK         
                 &kp DE_ODIA    &kp DE_SS     &trans         &trans            &trans          &trans          &kp C_MUTE      &trans          &kp DE_ADIA    &kp DE_UDIA
                 &trans         &trans        &kp LC(C)      &kp LC(V)         &trans          &kp C_VOL_DN    &kp C_VOL_UP    &kp C_PREVIOUS  &kp C_NEXT     &kp BACKSLASH
                 &kp PRINTSCREEN                             &mo 3          &trans             &trans      &trans                                             &trans
