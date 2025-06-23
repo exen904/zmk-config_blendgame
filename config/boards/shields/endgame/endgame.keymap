@@ -60,7 +60,7 @@ combo_##NAME { \
        combo_doublequote {
             timeout-ms = <50>;
             key-positions = <8 9>;
-            bindings = <&kp DE_QT>;
+            bindings = <&kp DE_DQT>;
        };
        combo_minus {
             timeout-ms = <50>;
