@@ -149,10 +149,10 @@ combo_##NAME { \
         NUM_layer {
             label= "NUM";
             bindings = <
-                &kp ESC      &kp PIPE        &kp UP           &trans             &kp DE_LPAR  &kp DE_RPAR      &kp N7       &kp N8       &kp N9         &kp DE_PLUS
-                &kp LSHFT    &kp LEFT        &kp DOWN         &kp RIGHT          &kp DE_LBRC  &kp DE_LBRC      &kp N4       &kp N5       &kp N6         &kp DE_MINUS
-                &kp DEL      &kp PAGE_UP     &kp LC(C)        &kp LC(V)          &kp DE_LCBR  &kp DE_RCBR      &kp N1       &kp N2       &kp N3         &kp DOT 
-                                        &trans        &trans        &trans       &kp N0       &kp BSPC                                                  &kp DE_UNDS
+                &kp ESC      &kp PIPE        &kp UP           &trans             &kp DE_LBRC        &kp DE_RBRC         &kp N7       &kp N8       &kp N9         &kp DE_PLUS
+                &kp LSHFT    &kp LEFT        &kp DOWN         &kp RIGHT          &kp DE_LBKT        &kp DE_RBKT         &kp N4       &kp N5       &kp N6         &kp DE_MINUS
+                &kp DEL      &kp PAGE_UP     &kp LC(C)        &kp LC(V)          &kp DE_LPAR        &kp DE_RPAR         &kp N1       &kp N2       &kp N3         &kp DOT 
+                                        &trans        &trans        &trans                          &kp N0              &kp BSPC                                 &kp DE_UNDER
             >;
         };
 
