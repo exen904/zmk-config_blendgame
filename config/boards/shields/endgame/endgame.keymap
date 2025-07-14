@@ -162,8 +162,8 @@ combo_##NAME { \
             label= "SYM";
             bindings = <
                 &kp DE_EXCL     &kp DE_AT     &kp DE_HASH    &kp DE_DLLR       &kp DE_PRCNT         &kp DE_GRAVE    &kp DE_AMPS     &kp DE_EURO     &kp DE_EQUAL      &kp DE_ASTRK         
-                &kp DE_A_UMLAUT &kp DE_SZ     &trans         &kp DE_LT         &kp DE_GT            &kp DE_U_UMLAUT &kp C_MUTE      &trans          &kp DE_O_UMLAUT   &kp DE_O_UMLAUT
-                &trans          &trans        &kp LC(C)      &kp LC(V)         &trans               &kp C_VOL_DN    &kp C_VOL_UP    &kp C_PREVIOUS  &kp C_NEXT        &kp BACKSLASH
+                &kp DE_A_UMLAUT &kp DE_SZ     &trans         &kp DE_LT         &kp DE_GT            &kp DE_U_UMLAUT &trans          &trans          &kp DE_O_UMLAUT   &kp DE_O_UMLAUT
+                &trans          &trans        &kp LC(C)      &kp LC(V)         &kp C_MUTE           &kp C_VOL_DN    &kp C_VOL_UP    &kp C_PREVIOUS  &kp C_NEXT        &kp BACKSLASH
                 &kp PRINTSCREEN                              &mo 3             &trans               &trans      &trans                                                &trans
             >;
         };
