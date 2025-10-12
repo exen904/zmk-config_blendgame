@@ -1,0 +1,9 @@
+file_format: "1"
+id: entgame
+name: Entgame
+type: shield
+url: https://github.com/
+requires: [pro_micro]
+features:
+  - keys
+  - studio
