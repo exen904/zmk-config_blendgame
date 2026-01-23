@@ -15,6 +15,10 @@
 #define NAV  2
 #define DE   3
 
+&caps_word {
+    continue-list = <UNDERSCORE MINUS BSPC LSHFT RSHFT>;
+};
+
 /* #define COMBO(NAME, BINDINGS, KEYPOS, LAYERS) \
 combo_##NAME { \
     timeout-ms = <20>; \
@@ -22,6 +26,20 @@ combo_##NAME { \
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
 }; */
+/ {
+    macros {
+        macro_shiftable_sch: macro_shiftable_sch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <
+                    &macro_tap &kp S
+                    &macro_release &kp RSHIFT
+                    &macro_tap &kp C &kp H
+            >;
+            tap-ms = <10>;
+        };
+    };
+};
 
 #define COMBO(NAME, BINDINGS, KEYPOS) \
 combo_##NAME { \
@@ -57,7 +75,7 @@ combo_##NAME { \
         SLOWCOMBO(pipe, &kp DE_PIPE, 5 15)
         COMBO(singlequote, &kp DE_SQT, 7 8)
         COMBO(doublequote, &kp DE_DQT, 8 9)
-        COMBO(symlayer, &sl SYM, 10 11)
+        //COMBO(symlayer, &sl SYM, 10 11)
         COMBO(plus, &kp DE_PLUS, 16 17)
         COMBO(minus, &kp DE_MINUS, 17 18)
         SLOWCOMBO(underscore, &kp DE_UNDER, 16 17 18)
