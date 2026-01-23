@@ -15,14 +15,26 @@
 #define NAV  2
 #define DE   3
 
-#define COMBO(NAME, BINDINGS, KEYPOS, LAYERS) \
+/* #define COMBO(NAME, BINDINGS, KEYPOS, LAYERS) \
 combo_##NAME { \
     timeout-ms = <20>; \
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
-};
+}; */
 
+#define COMBO(NAME, BINDINGS, KEYPOS) \
+combo_##NAME { \
+    timeout-ms = <20>; \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS>; \
+};
+#define SLOWCOMBO(NAME, BINDINGS, KEYPOS) \
+combo_##NAME { \
+    timeout-ms = <60>; \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS>; \
+};
 
 / {
     chosen {
